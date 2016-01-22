@@ -2,7 +2,7 @@
 
 ## Description
 
-Admob mediation module to show ad from popular ad networks such as Google Admob, Apple iAd, Facebook Ad, mDotm and inMobi. Both banners and interstitial (Fullscreen Ads) are supported.
+Admob mediation module provides Appcelerator Titanium Developers to show ads easily in their apps from popular ad networks such as Google Admob, Apple iAd, Facebook Ad, mDotm and inMobi. Both banners and interstitial (Fullscreen Ads) are supported.
 
 ## Accessing the admob-module-ios Module
 

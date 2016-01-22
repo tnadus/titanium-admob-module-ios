@@ -4,6 +4,26 @@
 
 Admob mediation module provides Appcelerator Titanium Developers to show ads easily in their apps from popular ad networks such as Google Admob, Apple iAd, Facebook Ad, mDotm and inMobi. Both banners and interstitial (Fullscreen Ads) are supported.
 
+
+## Installation
+
+Mac OS X
+--------
+Copy the distribution zip file into the `~/Library/Application Support/Titanium` folder
+
+
+## Registration of module for your project
+
+Register your module with your application by editing `tiapp.xml` and adding your module.
+Example:
+
+<modules>
+<module version="0.1">ti.admobmoduleios</module>
+</modules>
+
+When you run your project, the compiler will combine your module along with its dependencies
+and assets into the application.
+
 ## Accessing the admob-module-ios Module
 
 To access this module from JavaScript, you would do the following:
@@ -14,11 +34,11 @@ The admob_module_ios variable is a reference to the Module object.
 
 ## Reference
 
-See app.js file for reference
+See app.js file in example/ folder for reference
 
 ## Usage
 
-See app.js file for how to create banner and interstitial Ads
+See app.js file in example/ folder for how to create banner and interstitial Ads
 
 ## Author
 
